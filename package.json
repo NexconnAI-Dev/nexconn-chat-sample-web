@@ -1,0 +1,19 @@
+{
+  "name": "nexconn-chat-sample-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nexconn Chat SDK Sample Code for Web",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@nexconn/engine": "^26.1.0",
+    "@nexconn/chat": "^26.1.0"
+  },
+  "devDependencies": {
+    "vite": "^6",
+    "typescript": "^5"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexconn Chat SDK - Sample Code</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 32px; background: #f5f5f5; color: #333; }
+    h1 { font-size: 24px; margin-bottom: 8px; }
+    p.desc { color: #666; margin-bottom: 24px; }
+    .samples { display: flex; flex-direction: column; gap: 12px; max-width: 600px; }
+    .sample-row { display: flex; align-items: center; gap: 12px; }
+    button { padding: 10px 20px; font-size: 14px; border: 1px solid #ddd; border-radius: 6px; background: #fff; cursor: pointer; white-space: nowrap; }
+    button:hover { background: #e9e9e9; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .sample-label { font-size: 14px; color: #555; }
+    input[type="file"] { font-size: 13px; }
+    .hint { margin-top: 32px; padding: 16px; background: #fffbe6; border: 1px solid #ffe58f; border-radius: 6px; font-size: 13px; color: #8c6d1f; }
+  </style>
+</head>
+<body>
+  <h1>Nexconn Chat SDK - Sample Code</h1>
+  <p class="desc">Click a button below to run the corresponding sample. Open browser DevTools Console (F12) to view the output.</p>
+
+  <div class="samples">
+    <div class="sample-row">
+      <button id="btn-01">Run</button>
+      <span class="sample-label">Sample 1: Initialize and connect Chat SDK</span>
+    </div>
+
+    <div class="sample-row">
+      <button id="btn-02">Run</button>
+      <span class="sample-label">Sample 2: Send a text message in Direct Channel</span>
+    </div>
+
+    <div class="sample-row">
+      <button id="btn-03">Run</button>
+      <input type="file" id="file-input" />
+      <span class="sample-label">Sample 3: Send a file message in Direct Channel</span>
+    </div>
+
+    <div class="sample-row">
+      <button id="btn-04">Run</button>
+      <span class="sample-label">Sample 4: Create Group Channel and send a text message</span>
+    </div>
+
+    <div class="sample-row">
+      <button id="btn-05">Run</button>
+      <span class="sample-label">Sample 5: Get recent Direct and Group Channel list</span>
+    </div>
+
+    <div class="sample-row">
+      <button id="btn-06">Run</button>
+      <span class="sample-label">Sample 6: Set Do Not Disturb for Direct and Group Channel</span>
+    </div>
+
+    <div class="sample-row">
+      <button id="btn-07">Run</button>
+      <span class="sample-label">Sample 7: Get Group Channel member info</span>
+    </div>
+  </div>
+
+  <div class="hint">
+    Note: Please run Sample 1 first to initialize and connect the SDK before running other samples.<br/>
+    Before running, update the APPKEY, TOKEN and other configuration in <code>config.ts</code>.
+  </div>
+
+  <script type="module" src="./index.ts"></script>
+</body>
+</html>
