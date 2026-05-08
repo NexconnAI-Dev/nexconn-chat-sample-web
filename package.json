@@ -8,8 +8,8 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@nexconn/engine": "^26.1.0",
-    "@nexconn/chat": "^26.1.0"
+    "@nexconn/engine": "^26.2.1",
+    "@nexconn/chat": "^26.2.1"
   },
   "devDependencies": {
     "vite": "^6",

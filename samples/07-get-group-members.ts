@@ -4,7 +4,7 @@ import { GROUP_ID } from '../config';
 const RoleName: Record<number, string> = {
   [GroupMemberRole.UNDEF]: 'Undef',
   [GroupMemberRole.NORMAL]: 'Normal',
-  [GroupMemberRole.MANAGER]: 'Manager',
+  [GroupMemberRole.ADMIN]: 'Admin',
   [GroupMemberRole.OWNER]: 'Owner',
 };
 
