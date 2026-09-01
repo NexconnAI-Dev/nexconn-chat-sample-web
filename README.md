@@ -2,6 +2,16 @@
 
 This project contains 7 usage samples for the `@nexconn/chat` SDK, covering the following scenarios:
 
+<!-- Chat Growth Credit campaign banner -->
+<p align="center">
+  <a href="https://www.nexconn.ai/activity/chat-growth-credit?utm_source=github&utm_medium=readme&utm_campaign=chat-growth-credit&utm_repo=nexconn-chat-sample-web">
+    <img src="./assets/chat-growth-credit-hero.jpg" alt="Build your app with 10,000 free MAU and full Chat Pro capabilities" width="100%" />
+  </a>
+</p>
+
+> **Chat Growth Credit** — Build with Nexconn Chat and explore full capabilities free up to **10,000 MAU**. [View the offer details →](https://www.nexconn.ai/activity/chat-growth-credit?utm_source=github&utm_medium=readme&utm_campaign=chat-growth-credit&utm_repo=nexconn-chat-sample-web)
+
+
 1. Initialize and connect Chat SDK
 2. Send a text message in Direct Channel
 3. Send a file message in Direct Channel
